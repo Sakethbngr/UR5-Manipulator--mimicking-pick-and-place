@@ -1,0 +1,48 @@
+# Robot name goes here
+ur5v9: # change the name
+  # default controller
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Controller 1
+  trans_link1_joint: # change the name
+    type: position_controllers/JointPositionController # Type of controller. 
+    joint: link1_joint # Name of the joint.  
+    pid : {p: 1000.0 , i: 0.01 , d: 0.1} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0} 
+
+  # Controller 2
+  trans_link2_joint: # change the name
+    type: position_controllers/JointPositionController # Type of controller. 
+    joint: link2_joint # Name of the joint.  
+    pid : {p: 10000.0 , i: 0.01 , d: 0.1} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0} 
+  # Controller 3
+  trans_link3_joint: # change the name
+    type: position_controllers/JointPositionController # Type of controller. 
+    joint: link3_joint # Name of the joint.  
+    pid : {p: 1000.0 , i: 0.01 , d: 0.1} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0} 
+  # ....
+  # Controller n
+  trans_link4_joint: # change the name
+    type: position_controllers/JointPositionController # Type of controller. 
+    joint: link4_joint # Name of the joint.  
+    pid : {p: 10.0 , i: 0.01 , d: 0.1} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0} 
+
+  trans_link5_joint: # change the name
+    type: position_controllers/JointPositionController # Type of controller. 
+    joint: link5_joint # Name of the joint.  
+    pid : {p: 10.0 , i: 0.01 , d: 0.1} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0} 
+
+  trans_link6_joint: # change the name
+    type: position_controllers/JointPositionController # Type of controller. 
+    joint: link6_joint # Name of the joint.  
+    pid : {p: 10.0 , i: 0.01 , d: 0.1} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0} 
+
+
+  trans_left_end_joint: # change the name
+    type: position_controllers/JointPositionController # Type of controller. 
+    joint: left_end_joint # Name of the joint.  
+    pid : {p: 10.0 , i: 0.01 , d: 0.1} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0} 
+
+ 
+ 
