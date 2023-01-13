@@ -15,7 +15,7 @@
 ## How to run the code
 --> Create a catkin_ws and build it, then source it
 
---> Download the package and paste it in the catkin workspace
+--> Download the package (ur5v9 in the ROS package folder) and paste it in the catkin workspace
 
 --> Build and source the workspace
 
