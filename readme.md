@@ -15,9 +15,7 @@
 ## How to run the code
 --> Create a catkin_ws and build it, then source it
 
---> Download the package
-
---> extract ur5v9.zip in the package folder in the source directory
+--> Download the package and paste it in the catkin workspace
 
 --> Build and source the workspace
 
